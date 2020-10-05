@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { increment, decrement} from '../../store/actions/actions'
 import Header from "../../views/Header/Header";
+import Footer from "../../views/Footer/Footer";
 import "./index.css";
 
 class Counter extends Component {
@@ -12,6 +13,7 @@ class Counter extends Component {
                 <button onClick={this.props.increment} className="counter-btn">Increment</button>
                 <span className="counter-number">{this.props.count}</span>
                 <button onClick={this.props.decrement} className="counter-btn">Decrement</button>
+                <Footer heading={"Made by Hamza Razzaq"}/>
             </div>
         )
     }
