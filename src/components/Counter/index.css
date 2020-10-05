@@ -1,0 +1,13 @@
+.counter-number{
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+.counter-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #f6f6f6;
+    cursor: pointer;
+    outline: none;
+}
